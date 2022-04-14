@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+            <div class="imgBx">
+                <img src="Joako.jpg">
+            </div>
+            <h2>De La Cruz Joaquin<br><span>Website Designer</span></h2>
+        </div>
+        <ul class="navigation">
+            <li>
+                <a href="Sesion/index.html">
+                    <ion-icon name="home-outline"></ion-icon>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/541150140215">
+                    <ion-icon name="chatbox-outline"></ion-icon>
+                    Contacto
+                </a>
+            </li><li>
+                <a href="https://www.linkedin.com/in/joako-dlc-3978aa1b5/">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    Linkedin
+                </a>
+            </li><li>
+                <a href="https://www.instagram.com/joako.dlc/?hl=es-la">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    Mi Instagram
+                </a>
+            </li><li>
+                <a href="#">
+                    <ion-icon name="log-out-outline"></ion-icon>
+                    Cerrar sesion
+                </a>
+            </li>
+        </ul>
+        <div class="toggle">
+            <ion-icon name="chevron-down-outline"></ion-icon>  
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+    const card = document.querySelector('.card');
+    const cardtoggle = document.querySelector('.toggle');
+    cardtoggle.onclick = function(){
+        card.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
