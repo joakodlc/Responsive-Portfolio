@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!--========================== UNICONS ============================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -128,13 +129,13 @@
             </div>
         </section>
 
-                <!--========================== STARS ============================-->
+        <!--========================== STARS ============================-->
         <section class="wrapper">
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
+            <div class="change__theme" id="stars"></div>
+            <div class="change__theme" id="stars2"></div>
+            <div class="change__theme" id="stars3"></div>
         </section>
-        
+
         <!--========================== ABOUT ============================-->
         <section class="about section" id="about">
             <h2 class="section__title">Sobre Mi</h2>
@@ -169,7 +170,7 @@
         <!--========================== SKILLS ============================-->
         <section class="skills section" id="skills">
             <h2 class="section__title">Tecnologías</h2>
-            <span class="section__subtitle">Mi nivel tecnico</span>
+            <span class="section__subtitle">Mi nivel técnico</span>
 
             <div class="skills__container container grid">
                 <div>
@@ -274,7 +275,7 @@
                         <div class="calificacion__data">
                             <div>
                             <h3 class="califacion__title">Secundario</h3>
-                            <span class="calificacion__subtitle">Intituto Gonzalez Catan</span>
+                            <span class="calificacion__subtitle">Intituto González Catán</span>
                                 <div class="calificacion__calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     2014 - 2020
@@ -297,7 +298,7 @@
                             </div>
 
                             <div>
-                            <h3 class="califacion__title">Ingles</h3>
+                            <h3 class="califacion__title">Inglés</h3>
                             <span class="calificacion__subtitle">Instituto Guillermo Enrique Hudson</span>
                                 <div class="calificacion__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -363,21 +364,22 @@
 
         <!--========================== PORTFOLIO ============================-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
+            <h2 class="section__title">Portafolio</h2>
             <span class="section__subtitle">Mis proyectos</span>
 
             <div class="portfolio__container container swiper">
                 <div class="swiper-wrapper">
                     <!--========================== PORTFOLIO 1 ============================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <a href="assets/Paginas/News Page/index.html" target="_blank"><img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"></a>
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Tech News</h3>
-                            <p class="portfolio__description">Pagina adaptable a todos los dispositivos, sobre noticias de videojuegos, Hardware y Anime.</p>
+                            <p class="portfolio__description">Página adaptable a todos los dispositivos, sobre noticias de videojuegos, Hardware y Anime.</p>
                             <a href="assets/Paginas/News Page/index.html" target="_blank" class="button button--flex button--small portfolio__button">
                                 Ver más
                                 <i class="uil uil-arrow-right button__icon"></i>
+                                
                             </a>
                         </div>
                     </div>
@@ -387,7 +389,7 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Drop Menu</h3>
-                            <p class="portfolio__description">Mini diseño simple de un menu que se abre hacia abajo</p>
+                            <p class="portfolio__description">Mini diseño simple de un menú que se abre hacia abajo</p>
                             <a href="assets/Paginas/Drop Menu/index.html" target="_blank" class="button button--flex button--small portfolio__button">
                                 Ver más
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -413,7 +415,7 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Animación CSS</h3>
-                            <p class="portfolio__description">Animación creada utilizando unicamente CSS</p>
+                            <p class="portfolio__description">Animación creada utilizando únicamente CSS</p>
                             <a href="assets/Paginas/Animacion CSS/index.html" target="_blank" class="button button--flex button--small portfolio__button">
                                 Ver más
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -426,7 +428,7 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Color Page</h3>
-                            <p class="portfolio__description">Pagina simple con una unica función, cambiar de color la pagina utilizando CSS</p>
+                            <p class="portfolio__description">Página simple con una única función, cambiar de color la página utilizando CSS</p>
                             <a href="assets/Paginas/Color Page/index.html" target="_blank" class="button button--flex button--small portfolio__button">
                                 Ver más
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -448,7 +450,7 @@
             </div>
         </section>
 
-         <!--========================== PROYECTOS EN MENTE ============================-->
+        <!--========================== PROYECTOS EN MENTE ============================-->
         <section class="proyecto section">
             <div class="proyecto__bg">
                 <div class="proyecto__container container grid">
@@ -546,7 +548,7 @@
                     </div>
                     <div class="contact__content">
                         <label for=""  class="contact__label" required>Mensaje</label>
-                        <textarea name="" id="mensajes"  name="mensaje" cols="0" rows="7" class="contact__input" required></textarea>
+                        <textarea name="mensaje" id="mensajes" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
 
                     <div>
@@ -574,7 +576,7 @@
                         <a href="#skills" class="footer__link">Tecnologías</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#portfolio" class="footer__link">Portafolio</a>
                     </li>
                     <li>
                         <a href="#contact" class="footer__link">Contacto</a>
